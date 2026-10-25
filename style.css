@@ -12,9 +12,9 @@ main{
 }
 .WPiki{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 45px;
+    font-size: 50px;
     color: #2afa0e;
     text-decoration: none;
     margin: 0;
@@ -37,7 +37,12 @@ main{
 .WPSearch::placeholder{
     color: #000;
     opacity: 1;
+    display: none;
 }
+.WPSearch::placeholder:hover{
+    color: #004400;
+}
+
 .Smartphones{
     background: linear-gradient(135deg, #119911, #339933, #2067B2, #0077D6);
     width: 550px;
@@ -130,16 +135,20 @@ main{
 /* end/creators */
 .end{
     background-color: #0077D6;
-    width: 365px;
-    height: 100px;
-    margin: 15px;
+    width: 380px;
+    height: 120px;
+    margin: 0px;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .develop{
     color: #000;
     text-decoration: none;
-    margin: 2px;
+    margin: 0px;
+    padding: 0 10px 0 10px;
 
     display: flex;
     justify-content: center;
