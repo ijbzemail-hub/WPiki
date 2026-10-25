@@ -57,7 +57,7 @@ main{
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  color: #124191;
+  color: #000;
   text-decoration: none;
 }
 .NOKIA{
@@ -100,10 +100,7 @@ main{
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    background: linear-gradient(45deg, #FF0000, #dd1a1a, #d51c1c, #00FF00, #0000FF, #FFFF00, #fdfd15, #cfbf11);
-    -webkit-backface-visibility: text;
-    background-clip: text;
-    color: transparent;
+    color: #000;
     text-decoration: none;
 }
 .Microsoft{
