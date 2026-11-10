@@ -29,7 +29,7 @@ main{
     border-width: 5px;
     border-radius: 5px;
     background-color: #1f7f32;
-    margin: 0;
+    margin: 0px -10px 0px 0px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -43,6 +43,13 @@ main{
     color: #004400;
 }
 
+.SwitchLanguage > img{
+    width: 370px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 25px;
+    border-color: #004400;
+}
+
 .Smartphones{
     background: linear-gradient(135deg, #119911, #339933, #2067B2, #0077D6);
     width: 550px;
@@ -50,15 +57,15 @@ main{
     margin: 0;
 }
 
-
 /* NOKIA */
 .wordNOKIA{
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  color: #000;
-  text-decoration: none;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #124191;
+    text-decoration: none;
+    margin: -25px 0px 5px 0px;
 }
 .NOKIA{
     font-family: "Isometra", serif;
@@ -81,13 +88,13 @@ main{
     font-size: 23px;
     color: #00FFD0;
     text-decoration: none;
-    margin: 0;
+    margin: -5px 0px 0px 0px;
 }
 .linkSpecialNOKIA{
     font-size: 23px;
     color: #00FFD0;
     text-decoration: none;
-    margin: 0;
+    margin: 0px 0px 0px 0px;
 }
 .linkSpecialNOKIA:hover{
     color: #42ff04;
@@ -100,8 +107,12 @@ main{
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    color: #000;
+    background: linear-gradient(45deg, #FF0000, #dd1a1a, #d51c1c, #00FF00, #0000FF, #FFFF00, #fdfd15, #cfbf11);
+    -webkit-backface-visibility: text;
+    background-clip: text;
+    color: transparent;
     text-decoration: none;
+    margin: 35px 0px 5px 0px;
 }
 .Microsoft{
     font-family: "Isometra", serif;
@@ -121,11 +132,14 @@ main{
 .SpecialMicrosoft{
     font-size: 23px;
     color: #00FFD0;
-    margin: 0;
+    margin: -5px 0px 0px 0px;
 }
 .linkSpecialMicrosoft{
-    color: #000;
+    color: #00FFD0;
     text-decoration: none;
+}
+.linkSpecialMicrosoft:hover{
+    color: #42ff04;
 }
 
 
@@ -134,7 +148,7 @@ main{
     background-color: #0077D6;
     width: 380px;
     height: 120px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
 
     display: flex;
     justify-content: center;
